@@ -1,0 +1,332 @@
+body {
+  margin: 0;
+}
+
+hr {
+  height: 10px;
+  margin: 0;
+}
+
+.heritage {
+    text-align: center;
+    height: auto;
+    width: 100%;
+    display: inline-block;
+
+}
+
+.heritage iframe {
+    margin: -2px;
+    
+}
+
+.tbl table, td {
+  border-bottom: 2px solid #ddd;
+  border-collapse: collapse;
+  padding-bottom: 5px;
+  
+}
+.tbl th, .tbl td {
+  padding: 20px;
+  vertical-align: top;
+  text-align: left;
+  width: 50%;
+  font-family: Tahoma, Verdana, Arial, sans-serif
+  border-bottom: 15px solid black;
+  border-collapse: collapse;
+}
+
+.tbl th {
+  font-size: 25px;
+}
+
+.tbl td {
+  font-size: 18px;
+  line-height: 170%;
+}
+
+.td1 td {
+  width: 30%;
+  padding: 20px;
+  vertical-align: top;
+  text-align: left;
+  font-family: Tahoma, Verdana, Arial, sans-serif
+  border-collapse: collapse;
+}
+
+
+
+#rea {
+    text-align: left;
+    height: auto;
+    width: 100%;
+    /* padding-left: 25%; */
+    /* padding-right: 25%; */
+    display: inline-block;
+}
+.readmore {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.readmore hr {
+  height: 5px;
+  margin: 0;
+}
+
+.readbar {
+  display: inline-block;
+}
+
+.readbar h4 {
+    margin: 10px 20px 80px 10px;
+    text-align: justify;
+    font-weight: normal;
+    font-family: sans-serif;
+    line-height: 150%;
+}
+
+.readbar img{
+  width: auto;
+    height: 315px;
+    
+}
+
+.imgframe img, .imgframe iframe{
+     float: left;
+     margin: 10px 20px 0 10px;
+}
+
+.readbar img, .readbar iframe, .readbar h3{
+   /* margin: 10px 20px 0 10px;*/
+}
+
+td img {
+    width: 50%;
+}
+
+.td2 td {
+  width: 70%;
+  padding: 20px;
+  vertical-align: top;
+  text-align: left;
+  font-family: Tahoma, Verdana, Arial, sans-serif
+  border-collapse: collapse;
+}
+/*************/
+
+.viewall a {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 25px;
+    text-decoration: none;
+    background: #2ec478;
+    border: 1px solid #2ec4b6;
+    color: #fff;
+    cursor: pointer;
+    padding: 0.8em 1em;
+    width: 26%;
+    margin-left: 1%;
+    border-radius: 5px 50px;
+    margin-left: 1%;
+}
+
+.viewall a:hover {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 25px;
+    text-decoration: none;
+    background: #2ec47896;
+    border: 1px solid #2ec47896;
+    color: #fff;
+    cursor: pointer;
+    padding: 0.8em 1em;
+    width: 26%;
+    margin-left: 1%;
+    border-radius: 5px 50px;
+    margin-left: 1%;
+}
+
+.readmore th {
+  font-size: 50px;
+}
+
+.loadmore {
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+
+/*************Footer******************/
+
+.container {
+    width: 100%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.copyright {
+    background: #292929;
+    box-shadow: 0px -8px 20px 5px rgba(0, 0, 0, 0.2);
+}
+
+.py-3 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.copy-right {
+    margin: 0;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    line-height: 2em;
+    letter-spacing: 1px;
+}
+
+/************************************/
+
+.mian-content {
+    background: url(https://travellanka.ru/leftmenu1/sigiriya_rock.jpg);
+    position: relative;
+    padding-bottom: 40%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    font-family: fantasy;
+    color: #fee7b3;
+}
+
+
+ 
+.nav_bar {
+  overflow: hidden;
+  font-family: Arial;
+  width: 100%;
+  padding-top: 30px;
+}
+
+
+/* ****** */
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+  width: 15%;
+  margin: 10px 10px;
+}
+
+.logo img {
+  height: auto;
+  width: 100%;
+}
+
+.nav {
+  display: inline-block;
+  vertical-align: middle;
+  width: 70%;
+  text-align: right;
+}
+
+.all_navigation::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.all_navigation li {
+  list-style: none;
+  display: inline-block;
+}
+.nav_bar_links_ul a {   
+ text-decoration: none;
+    /* color: white; */
+    background-color: #654dec;
+    border-radius: 100px;
+    color: #fff;
+    /* display: inline-block; */
+    font-family: 'Open Sans',arial,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    /* line-height: 19px; */
+    padding: 12px;
+    /* position: relative; */
+    margin: 0 21px 0 0;
+    text-transform: uppercase;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.04), 0 4px 8px 0 rgba(0,0,0,0.20);
+}
+
+.nav_bar_links_ul li {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.nav_bar_links_ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav_bar_links_ul a:hover {
+  color: #ddd;
+}
+
+.nav_bar_links_ul .menulinks li {
+  margin-left: 40px;
+}
+
+.nav_bar_links_ul .twi {
+  display: inline;
+}
+
+.menulinks {
+  margin-left: 40px;
+}
+
+.twi:hover {
+  color: #2E9AFE;
+}
+
+
+/* NAV DROP DOWN */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    /* min-width: 200px; */
+
+    z-index: 1;
+    padding: 10px 0 0 0;
+}
+
+.dropdown-content a {
+  color: white;
+  background-color: #a493ff;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  
+  color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
