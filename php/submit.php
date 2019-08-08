@@ -20,11 +20,11 @@ else
 	$URL = $_POST["url"];
 	$Message = $_POST["msg"];
 
-	$query = "INSERT INTO student (name,email,tel,url,msg) Values ('$Name','$Email','$Telephone','$URL','$Message')";
+	$query = "INSERT INTO form Values ('$Name','$Email','$Telephone','$URL','$Message')";
 
 		if ($conn->query($query)) 
 		{
-			echo "Thank you!";
+			header("Location: http://localhost/Web Project/index.html" , true, 301);			
 		}
 
 		else
